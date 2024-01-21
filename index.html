@@ -1,0 +1,470 @@
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <script data-cfasync="false" async="" src="app/assets/js/ramp_config.js"></script>
+      <title>GitBits</title>
+      <meta name="description" content="A collection listing all Achievements available on the GitHub profile and how to get them.🏆">
+      <!-- Opengraph Tags -->
+      <meta property="og:type" content="website">
+      <meta property="og:title" content="GitBits">
+      <meta property="og:description" content="A collection listing all Achievements available on the GitHub profile and how to get them.🏆">
+      <meta property="og:url" content="https://mitsuki-jpg.github.io/GitBits/">
+      <meta property="og:image" content="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/app/assets/img.png">
+      <meta name="theme-color" content="#9153da">
+      <link type="application/json+oembed" href="app/assets/oembed.json">
+      <!-- Twitter Card -->
+      <meta name="twitter:card" content="summary">
+      <meta name="twitter:title" content="GitBits">
+      <meta name="twitter:description" content="A collection listing all Achievements available on the GitHub profile and how to get them.🏆">
+      <meta property="twitter:url" content="https://mitsuki-jpg.github.io/GitBits/">
+      <meta property="twitter:image" content="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/app/assets/img.png">
+      <!-- Images -->
+      <link rel="icon" href="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/app/assets/img.png">
+      <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v6.5.1/css/pro.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+      <!-- Bootstrap core CSS -->
+      <link href="app/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="app/css/bootstrap-better-nav.min.css">
+      <!-- Custom CSS -->
+      <link href="app/css/ember2.css" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="use-credentials">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+   </head>
+   </div>
+   <body class="theme-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+         <div class="container">
+            <a class="navbar-brand" href="https://mitsuki-jpg.github.io/GitBits/"><img src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/app/assets/img.png" alt="Github achievements & How to unlock them" class="mr-1"> GitBits</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                     <a class="nav-link collection-link" href="https://github.com/mitsuki-jpg/GitBits"><i class="fa-brands fa-github"></i>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="navbar-nav float-right user-nav">
+                  <a href="https://dsc.gg/gitbits" class="nav-link"><i class="fa-brands fa-discord"></i> Discord</a>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <div class="hero mt-2 mb-2">
+         <div class="container text-left">
+            <div class="row">
+               <div class="col-md-6">
+                  <h1><i class="fa-brands fa-github"></i> GitHub Achievements</h1>
+                  <p>A collection listing all Achievements available on the GitHub profile, and how to get them.</p>
+                  <p><small><span  class="badge badge-info tag-version"><i class="fa-duotone fa-hashtag"></i> 1.0</span></small>&nbsp;&nbsp;<small><span  class="badge badge-info tag-license"><i class="fa-duotone fa-scroll"></i> MIT License</span></small>&nbsp;&nbsp;<small><span  class="badge badge-info tag-compare"><i class="fa-duotone fa-code-compare"></i> 1/20/2024</span></small></p>
+               </div>
+               <div class="col-md-6 text-right mobile-hide">
+                  <img class="img-fluid mx-auto" src="app/assets/hero-img.png" alt="GitBits" width="966" height="600">
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container mt-4 mb-2">
+         <div class="d-flex align-items-center pt-3 pb-0 my-3 section-head">
+            <div class="lh-100">
+               <h2 class="h5 mb-0 lh-100">Achievements</h2>
+               <p class="mt-1 text-muted">Currently obtainable</p>
+               <p class="small">If you have already unlocked an achivement, you can press the <i class="fa-duotone fa-circle-check text-muted mobile-hide"></i> in the upper right corner to deselect it.</p>
+            </div>
+            <div class="ml-auto p-2"></div>
+         </div>
+         <div class="row" id="item-rows">
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/pair-extraordinaire-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/pair-extraordinaire-default.png" width="100px">
+                     </div>
+                  </a>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pair Extraordinaire</a></div>
+                     <p class="text-muted">Coauthored in a merged pull request<br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/quickdraw-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/quickdraw-default.png" width="100px">
+                     </div>
+                  </a>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Quickdraw</a></div>
+                     <p class="text-muted">Closed an issue or a pull request within 5 min of opening</p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/starstruck-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/starstruck-default.png" width="100px">
+                     </div>
+                  </a>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Starstruck</a></div>
+                     <p class="text-muted">Created a repository that has 16 stars<br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/galaxy-brain-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/galaxy-brain-default.png" width="100px">
+                     </div>
+                  </a>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Galaxy Brain</a></div>
+                     <p class="text-muted">2 accepted answers<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/pull-shark-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/pull-shark-default.png" width="100px">
+                     </div>
+                  </a>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pull Shark</a></div>
+                     <p class="text-muted">2 pull requests merged<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/yolo-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/yolo-default.png" width="100px">
+                     </div>
+                  </a>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">YOLO</a></div>
+                     <p class="text-muted">Merged own pull request without code review<br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/public-sponsor-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/public-sponsor-default.png" width="100px">
+                     </div>
+                  </a>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Public Sponsor</a></div>
+                     <p class="text-muted">Sponsoring open source work via <a href="https://github.com/sponsors">GitHub Sponsors</a><br></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="d-flex align-items-center pt-3 pb-0 my-3 section-head">
+            <div class="lh-100">
+               <h2 class="h5 mb-0 lh-100">Tier Achievements</h2>
+               <p class="mt-1 text-muted">Currently obtainable</p>
+               <p class="small">If you have already unlocked an achivement, you can press the <i class="fa-duotone fa-circle-check text-muted mobile-hide"></i> in the upper right corner to deselect it.</p>
+            </div>
+            <div class="ml-auto p-2"></div>
+         </div>
+         <div class="row" id="item-rows">
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pair-extraordinaire-bronze.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pair-extraordinaire-bronze.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="bronze">Bronze</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pair Extraordinaire</a></div>
+                     <p class="text-muted">Coauthored in 10 merged pull requests<br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pair-extraordinaire-silver.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pair-extraordinaire-silver.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="silver">Silver</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pair Extraordinaire</a></div>
+                     <p class="text-muted">Coauthored in 24 merged pull requests<br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pair-extraordinaire-gold.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pair-extraordinaire-gold.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="gold">Gold</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pair Extraordinaire</a></div>
+                     <p class="text-muted">Coauthored in 48 merged pull requests<br><br></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="item-rows">
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/starstruck-bronze.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/starstruck-bronze.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="bronze">Bronze</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Starstruck</a></div>
+                     <p class="text-muted">Created a repository that has 128 stars<br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/starstruck-silver.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/starstruck-silver.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="silver">Silver</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Starstruck</a></div>
+                     <p class="text-muted">Created a repository that has 512 stars<br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/starstruck-gold.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/starstruck-gold.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="gold">Gold</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Starstruck</a></div>
+                     <p class="text-muted">Created a repository that has 4096 stars<br><br></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="item-rows">
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/galaxy-brain-bronze.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/galaxy-brain-bronze.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="bronze">Bronze</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Galaxy Brain</a></div>
+                     <p class="text-muted">8 accepted answers<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/galaxy-brain-silver.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/galaxy-brain-silver.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="silver">Silver</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Galaxy Brain</a></div>
+                     <p class="text-muted">16 accepted answers<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/galaxy-brain-gold.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/galaxy-brain-gold.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="gold">Gold</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Galaxy Brain</a></div>
+                     <p class="text-muted">32 accepted answers<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="row" id="item-rows">
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pull-shark-bronze.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pull-shark-bronze.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="bronze">Bronze</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pull Shark</a></div>
+                     <p class="text-muted">16 pull requests merged<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pull-shark-silver.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pull-shark-silver.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="silver">Silver</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pull Shark</a></div>
+                     <p class="text-muted">128 pull requests merged<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pull-shark-gold.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/tiers/pull-shark-gold.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="gold">Gold</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Pull Shark</a></div>
+                     <p class="text-muted">1024 pull requests merged<br><br><br></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="d-flex align-items-center pt-3 pb-0 my-3 section-head">
+            <div class="lh-100">
+               <h2 class="h5 mb-0 lh-100">Unavailable Achievements</h2>
+            </div>
+            <div class="ml-auto p-2"></div>
+         </div>
+         <div class="row" id="item-rows">
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/arctic-code-vault-contributor-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/arctic-code-vault-contributor-default.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="notavailable">Unavailable</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Arctic Code Vault Contributor</a></div>
+                     <p class="text-muted">Contributed code to repositories in the <a href="https://archiveprogram.github.com/">2020 GitHub Archive Program</a><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/mars-2020-contributor-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/mars-2020-contributor-default.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="notavailable">Unavailable</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Mars 2020 Contributor</a></div>
+                     <p class="text-muted">Contributed code to repositories used in the <a href="https://github.com/readme/nasa-ingenuity-helicopter">Mars 2020 Helicopter Mission</a><br></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="d-flex align-items-center pt-3 pb-0 my-3 section-head">
+            <div class="lh-100">
+               <h2 class="h5 mb-0 lh-100">Coming soon</h2>
+            </div>
+            <div class="ml-auto p-2"></div>
+         </div>
+         <div class="row" id="item-rows">
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/heart-on-your-sleeve-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/heart-on-your-sleeve-default.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="soon">Coming soon</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Heart On Your Sleeve</a></div>
+                     <p class="text-muted">React to something on GitHub with a ❤️ emoji<br><br></p>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3 sticker-item mb-3 item-col">
+               <div class="card card-item mb-3">
+                  <span class="badge badge-light badge-ext collection" data-id="github"><i class="fa-duotone fa-circle-check text-muted mobile-hide"></i></span>
+                  <a href="">
+                     <div class="thumb">
+                        <img class="card-img-top img lazy" src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/open-sourcerer-default.png" data-src="https://raw.githubusercontent.com/mitsuki-jpg/GitBits/main/releases/3.0.0/open-sourcerer-default.png" width="100px">
+                     </div>
+                  </a>
+                  <span class="soon">Coming soon</span>
+                  <div class="card-body">
+                     <div class="title-item"><a href="" class="h6">Open Sourcerer</a></div>
+                     <p class="text-muted">User had PRs merged in multiple public repositories<br><br></p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bar">
+         <div class="container">
+            <p><i class="fa-duotone fa-bell"></i> Do you want to be informed about new achievements? Join the <a href="https://dsc.gg/gitbits" target="_blank"><i class="fa-brands fa-discord"></i> discord</a>.</p>
+         </div>
+      </div>
+      <script src="app/js/jquery-3.2.1.min.js"></script>
+      <script src="app/js/popper.min.js"></script>
+      <script src="app/js/bootstrap.min.js?v=2"></script>
+      <script src="app/js/bootstrap-better-nav.min.js"></script>
+      <script src="app/js/select.min.js"></script>
+      <script src="app/js/ias.min.js"></script>
+      <script src="app/js/toast.min.js?t=3"></script>
+      <script src="app/js/FileSaver.min.js"></script>
+      <script src="app/js/jszip.min.js"></script>
+      <script src="app/js/jszip-utils.min.js"></script>
+      <script src="app/js/site.min.js"></script>
+      <script data-cfasync="false" async="" src="app/js/ramp_core.js" style="display: none !important;"></script>
+   </body>
+</html>
